@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#145e50">
+  <title>Sauber geplant · Lernfassung 2</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <a class="skip" href="#main">Zum Lernbereich</a>
+  <div class="version-bar"><span>Zusätzliche Lernfassung · 2</span><a href="../ium-v2-ux01/reinigungsfall.html">Erste Fassung ansehen ↗</a></div>
+  <header class="header">
+    <a class="brand" href="#start"><span class="brand-icon" aria-hidden="true">↱</span><span>Sauber geplant<small>Informatik &amp; Medienbildung · Klasse 5</small></span></a>
+    <div class="header-actions"><button id="pause-button" class="subtle">Pause &amp; Rückkehr</button><button id="save-button" class="outline">Sichern <span aria-hidden="true">↓</span></button></div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar"><details id="navigation" open><summary>Dein Lernweg</summary><nav id="nav" aria-label="Lernschritte"></nav></details><div class="side-note"><span class="small-caps">Deine Aufgabe</span><p>Du gibst den Plan vor.<br>Der Roboter führt ihn aus.</p><p class="muted">Eine gute Lösung kannst du auch erklären.</p></div></aside>
+    <main id="main" tabindex="-1"></main>
+  </div>
+  <footer><span>Modellroboter · eigene Wege, nachvollziehbare Entscheidungen</span><span id="storage-status" role="status">Eingaben nur in diesem Tab</span><a href="README.md">Hinweise für Lehrkräfte</a></footer>
+  <dialog id="save-dialog" aria-labelledby="save-title">
+    <div class="dialog-head"><h2 id="save-title">Deinen Arbeitsstand sichern</h2><button data-close class="icon-button" aria-label="Schließen">×</button></div>
+    <p>Dein Code, deine Vermutungen und Notizen gehören zusammen. Sichere sie, damit du später weiterarbeiten kannst.</p>
+    <div class="save-options"><button id="export-button" class="primary">Sicherung als Datei laden ↓</button><label class="file-label outline" for="import-file">Eine Sicherung öffnen ↑</label><input type="file" id="import-file" accept=".json,application/json" class="sr-only"></div>
+    <label class="checkbox-line"><input type="checkbox" id="remember"> Auf diesem Gerät im Browser behalten</label>
+    <p class="muted">Nur für deinen eigenen Browser. Auf gemeinsam benutzten Geräten besser eine Datei nutzen. Browserdaten können gelöscht werden; eine Datei ist deine zusätzliche Sicherung.</p>
+    <div id="import-preview"></div><p id="save-message" role="status"></p>
+  </dialog>
+  <noscript>Für den ausführbaren Reinigungsplan muss JavaScript aktiviert sein.</noscript>
+  <script src="cleaning-core.js"></script><script src="lesson-model.js"></script><script src="app.js"></script>
+</body>
+</html>

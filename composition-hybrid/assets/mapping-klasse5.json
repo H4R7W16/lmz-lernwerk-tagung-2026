@@ -1,0 +1,273 @@
+{
+  "archive": "Planung-AHF.zip",
+  "archiveSHA256": "8db078859743d696ff5a6331c9cc2263dc0e8581571fdfb29b45b4a002f5f848",
+  "planAsOf": "2026-09-22",
+  "sourceDistribution": "Eigene Projektverteilung innerhalb der amtlichen Bänder, keine amtliche Einzeljahrzuordnung.",
+  "unitMinutes": 45,
+  "year": {
+    "grade": 5,
+    "moduleIds": [
+      "G5-M01",
+      "G5-M02",
+      "G5-M03",
+      "G5-M04",
+      "G5-M05",
+      "G5-M06"
+    ],
+    "coreMinutes": 1350,
+    "annualMinutes": {
+      "spacedPracticeMinutes": 135,
+      "orchestrationMinutes": 45,
+      "bufferMinutes": 180
+    },
+    "requiredMinutes": 1710,
+    "requiredUnits": 38,
+    "timeStatus": "unpiloted-project-estimate",
+    "availability": "not-confirmed",
+    "changeFromPrevious36Units": "+90 Minuten konkrete zusätzliche Lernhandlungen; bisherige Jahresreserven unverändert.",
+    "capacityRule": "Unter 38 Netto-UE konkreten Teilplan mit sichtbaren offenen Zielen erstellen. Alte 32/36-UE-Varianten sind keine zugesicherte Vollständigkeit dieser neuen Fassung. Bei 40 UE zuerst Übung/Förderbedarf, danach Vertiefung."
+  },
+  "grade5Modules": [
+    {
+      "id": "G5-M01",
+      "title": "Im schulischen Arbeitsraum sicher handeln",
+      "minutes": 180,
+      "contentCompetencyIds": [
+        "3.1.1.1(1)",
+        "3.1.4.1(6)",
+        "3.1.4.1(7)",
+        "3.1.5.1(1)",
+        "3.1.5.1(2)",
+        "3.1.5.1(3)",
+        "3.1.5.1(4)"
+      ]
+    },
+    {
+      "id": "G5-M02",
+      "title": "Informationen finden, prüfen und ordnen",
+      "minutes": 225,
+      "contentCompetencyIds": [
+        "3.1.2.1(1)",
+        "3.1.2.1(2)",
+        "3.1.2.1(3)",
+        "3.1.2.2(1)",
+        "3.1.2.2(5)",
+        "3.1.2.2(6)"
+      ]
+    },
+    {
+      "id": "G5-M03",
+      "title": "Digital zusammenarbeiten und verständlich kommunizieren",
+      "minutes": 135,
+      "contentCompetencyIds": [
+        "3.1.1.1(1)",
+        "3.1.1.1(4)",
+        "3.1.4.1(1)",
+        "3.1.4.1(2)",
+        "3.1.4.1(3)",
+        "3.1.4.1(4)",
+        "3.1.4.1(5)",
+        "3.1.4.1(6)",
+        "3.1.4.1(7)",
+        "3.1.4.2(7)",
+        "3.1.5.2(4)",
+        "3.1.5.2(5)",
+        "3.1.5.2(6)"
+      ]
+    },
+    {
+      "id": "G5-M04",
+      "title": "Ein Medienprodukt gestalten, prüfen und vorstellen",
+      "minutes": 360,
+      "contentCompetencyIds": [
+        "3.1.2.2(5)",
+        "3.1.2.2(6)",
+        "3.1.4.1(1)",
+        "3.1.5.1(5)",
+        "3.1.5.1(6)",
+        "3.1.5.1(7)",
+        "3.1.5.1(8)",
+        "3.1.5.1(9)",
+        "3.1.5.2(1)",
+        "3.1.5.2(2)",
+        "3.1.5.2(3)",
+        "3.1.5.2(4)",
+        "3.1.5.2(5)",
+        "3.1.5.2(6)"
+      ]
+    },
+    {
+      "id": "G5-M05",
+      "title": "Medienwirkungen und Selbstdarstellung beurteilen",
+      "minutes": 225,
+      "contentCompetencyIds": [
+        "3.1.1.1(2)",
+        "3.1.1.1(3)",
+        "3.1.1.1(5)",
+        "3.1.4.2(6)",
+        "3.1.4.2(7)",
+        "3.1.5.1(8)",
+        "3.1.5.1(9)",
+        "3.1.5.2(1)",
+        "3.1.5.2(2)",
+        "3.1.5.2(3)"
+      ]
+    },
+    {
+      "id": "G5-M06",
+      "title": "Präzise Abläufe entwickeln und prüfen",
+      "minutes": 225,
+      "contentCompetencyIds": [
+        "3.1.3.1(1)",
+        "3.1.3.1(2)",
+        "3.1.3.1(3)",
+        "3.1.3.1(4)",
+        "3.1.3.1(5)",
+        "3.1.3.1(6)"
+      ]
+    }
+  ],
+  "grade6Research": {
+    "title": "Suchen und widersprüchliche Quellen prüfen",
+    "goal": "Indexsuche erklären und widersprüchliche Informationen anhand Herkunft, Motiven und überprüfbaren Belegen beurteilen.",
+    "learningAction": "Recherche praktisch durchführen; an einem kleinen Indexmodell Suchanfrage und Fundliste erklären. Zwei widersprüchliche Quellen und eine vorbereitete KI-Ausgabe prüfen; Akteure, Motive, Interessenkonflikt und mögliche automatisierte Verbreitung unterscheiden.",
+    "plannedProduct": "Geordnete Quellenprüfung mit markiertem Widerspruch, begründetem Vertrauensurteil, Erklärung des Indexmodells und nachvollziehbarer Korrektur einer unbelegten KI-Aussage.",
+    "feedbackAndRevision": "Kriterienlösung und kommentiertes Gegenbeispiel anbieten; Lernende vergleichen, erklären die Abweichung und überarbeiten. Bei kooperativen Aufgaben folgt zusätzlich Rückmeldung einer realen Person.",
+    "digitalPurpose": "Reale Suche, Navigation und Vergleich sind fachlich notwendig. Vorbereitete, geprüfte KI-Ausgaben erlauben kritische Analyse ohne persönliche Konten oder eigene Prompts.",
+    "fallback": "Lokale Quellenausschnitte erhalten Quellenurteil und KI-Kritik; tatsächliche Suchmaschinennutzung muss bei Zugangsausfall nachgeholt werden.",
+    "minutes": 225,
+    "timeComponents": {
+      "orientationAndExplanation": 35,
+      "guidedPractice": 50,
+      "independentApplication": 65,
+      "feedbackAndRevision": 40,
+      "consolidationAndTransfer": 35
+    },
+    "pilotQuestion": "Überfordert die Verbindung von Suchmodell und Quellenurteil? Können Lernende Widerspruch, fehlenden Beleg und Interessen auseinanderhalten?",
+    "id": "G6-M02",
+    "grade": 6,
+    "kind": "core",
+    "legacyModuleId": "V2-G6-M02",
+    "legacyCommit": "4abbe6c2225e608f9bc10c9ae9a4028477235864",
+    "change": "Indexsuche, Akteure/Motive, automatisierte Inhalte und Chancen/Fehlurteile von KI verbinden.",
+    "acceptanceEvidence": "Indexmodell erklären, widersprechende Quellen prüfen und eine vorbereitete KI-Ausgabe begründet einordnen; kein Nachweis aktiver KI-Nutzung.",
+    "additionalMinutes": 0,
+    "materialStatus": "requires-authoring-or-adaptation",
+    "evidenceStatus": "planned-not-observed",
+    "support": "Selbstständig lesbare Erklärung, vollständig durchgearbeitetes Beispiel, gestufte Hilfen, Kriterienlösung und erneuter Versuch. Lehrkraftbegleitung bleibt möglich; reale Kooperation und Werkzeugzugänge sind separat ausgewiesen.",
+    "contract": "production-contract.md",
+    "contentCompetencyIds": [
+      "3.1.2.1(1)",
+      "3.1.2.1(2)",
+      "3.1.2.1(3)",
+      "3.1.2.1(4)",
+      "3.1.2.2(1)",
+      "3.1.2.2(2)",
+      "3.1.2.2(3)",
+      "3.1.2.2(4)",
+      "3.1.2.2(5)",
+      "3.1.2.2(6)",
+      "3.1.2.2(7)",
+      "3.1.2.2(8)"
+    ],
+    "processCompetencyIds": [
+      "2.2(1)",
+      "2.2(5)",
+      "2.6(5)"
+    ],
+    "processSelectionRule": "Pro konkreter Aufgabe höchstens wenige passende Prozessziele fokussieren; die Modulliste bündelt mehrere Aufgaben, keine pauschale Abschlussbewertung."
+  },
+  "competencies": [
+    {
+      "id": "3.1.2.1(1)",
+      "section": "3.1.2.1",
+      "sectionTitle": "Informationen suchen und prüfen",
+      "number": 1,
+      "recordType": "content-competency",
+      "grades": [
+        5,
+        6
+      ],
+      "sourceText": "digitale Werkzeuge und Angebote zur Informationsgewinnung nutzen",
+      "sourcePage": 35,
+      "italicSpans": [],
+      "label": "Recherchewerkzeuge nutzen",
+      "legacyId": "LH26-E-ID-001"
+    },
+    {
+      "id": "3.1.2.1(2)",
+      "section": "3.1.2.1",
+      "sectionTitle": "Informationen suchen und prüfen",
+      "number": 2,
+      "recordType": "content-competency",
+      "grades": [
+        5,
+        6
+      ],
+      "sourceText": "Informationen kriterienbasiert (unter anderem auf Herkunft und Plausibilität) überprüfen",
+      "sourcePage": 35,
+      "italicSpans": [],
+      "label": "Herkunft und Plausibilität prüfen",
+      "legacyId": "LH26-E-ID-002"
+    },
+    {
+      "id": "3.1.2.1(3)",
+      "section": "3.1.2.1",
+      "sectionTitle": "Informationen suchen und prüfen",
+      "number": 3,
+      "recordType": "content-competency",
+      "grades": [
+        5,
+        6
+      ],
+      "sourceText": "Informationen auswählen und strukturiert darstellen (zum Beispiel in Form einer Aufzählung oder Tabelle)",
+      "sourcePage": 35,
+      "italicSpans": [],
+      "label": "Informationen strukturieren",
+      "legacyId": "LH26-E-ID-003"
+    },
+    {
+      "id": "3.1.2.1(4)",
+      "section": "3.1.2.1",
+      "sectionTitle": "Informationen suchen und prüfen",
+      "number": 4,
+      "recordType": "content-competency",
+      "grades": [
+        5,
+        6
+      ],
+      "sourceText": "die grundlegende Funktionsweise einer indexbasierten Suche erläutern",
+      "sourcePage": 35,
+      "italicSpans": [],
+      "label": "Indexsuche erläutern",
+      "legacyId": "LH26-E-ID-004"
+    }
+  ],
+  "lessonPlanAsOf": "2026-10-12",
+  "researchSteps": [
+    {
+      "title": "Mondfrage",
+      "minutes": 15
+    },
+    {
+      "title": "Leas Modellweg",
+      "minutes": 30
+    },
+    {
+      "title": "Eigene Notiz",
+      "minutes": 45
+    },
+    {
+      "title": "Quellenprüfung",
+      "minutes": 70
+    },
+    {
+      "title": "Infokarte",
+      "minutes": 40
+    },
+    {
+      "title": "Neuer Fall",
+      "minutes": 25
+    }
+  ]
+}

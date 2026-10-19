@@ -1,0 +1,7 @@
+(()=>{
+let last,sceneAtOpen;const dialog=document.createElement('dialog');dialog.className='review-dialog';dialog.setAttribute('aria-label','Lernwerk-Ausschnitt');dialog.innerHTML='<header><strong></strong><button type="button">Zur Folie zurück ×</button></header><div class="review-detail"></div>';document.body.append(dialog);
+const signal=open=>parent.postMessage({source:'lmz-review-ui',open},location.origin);
+const close=()=>dialog.close();dialog.querySelector('button').addEventListener('click',close);dialog.addEventListener('close',()=>{signal(false);dialog.querySelector('.review-detail').replaceChildren();last?.focus();});
+document.addEventListener('click',e=>{const button=e.target.closest('[data-review-image],[data-review-page]');if(!button)return;e.stopPropagation();last=button;sceneAtOpen=button.closest('.scene-frame')?.id;dialog.querySelector('strong').textContent=button.dataset.reviewCaption;const body=dialog.querySelector('.review-detail');body.replaceChildren();if(button.dataset.reviewImage){const img=document.createElement('img');img.src=button.dataset.reviewImage;img.alt=button.dataset.reviewCaption;body.append(img);}else{const frame=document.createElement('iframe');frame.src=button.dataset.reviewPage;frame.title=button.dataset.reviewCaption;body.append(frame);}dialog.showModal();signal(true);});
+const prior=window.LMZStage.show;window.LMZStage.show=function(id,time){if(dialog.open&&id!==sceneAtOpen)dialog.close();return prior.call(this,id,time);};
+dialog.addEventListener('keydown',e=>e.stopPropagation());})();

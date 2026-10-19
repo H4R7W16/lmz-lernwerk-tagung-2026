@@ -1,0 +1,19 @@
+{
+  "source": "https://hartificial.de/wp-content/uploads/2026/10/Hoehlengleichnis_First_Person_V2.html",
+  "creationChat": "https://chatgpt.com/share/6ad51a19-4a50-83ed-a712-685ec244c55c",
+  "creationPrompts": [
+    {
+      "label": "Eine Welt beauftragen",
+      "text": "Erstelle eine interaktive detaillierte Wireframe Version des Höhlengleichnis, die aus firstPerson-Sicht erkundet werden kann im Stile eines Games.",
+      "resultFile": "Hoehlengleichnis_First_Person.html"
+    },
+    {
+      "label": "Die Erfahrung schärfen",
+      "text": "Analysiere das Ergebnis und führe gezielte Verbesserungen durch um es deutlich zu verbessern.\nlege dabei einen Fokus auf die firstperson Erfahrung. die Limitationen der jeweiligen stufen müssen auch beim/ nach dem Verlassen der Höhle besser erfahren werden.",
+      "resultFile": "Hoehlengleichnis_First_Person_V2.html"
+    }
+  ],
+  "originalSha256": "0f089815314a64da92ce89aed47b811a779a344503cf0536881929abb7c3ff6a",
+  "derivedSha256": "2b534aae2779f141e86d94c09f4a4909229a68a97e33940fbb6f719a90e57922",
+  "attribution": "Begehbare Umsetzung des Höhlengleichnisses, von Jan dem verlinkten Entstehungsdialog zugeordnet. Zwei dort sichtbare Nutzeraufträge. Die Vortragsergänzung ermöglicht vorbereitete freie Ansichten."
+}
